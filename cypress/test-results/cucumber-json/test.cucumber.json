@@ -1,0 +1,46 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "E2E Code Coverage",
+    "line": 2,
+    "id": "e2e-code-coverage",
+    "tags": [
+      {
+        "name": "@CODECOVERAGE",
+        "line": 1
+      }
+    ],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "e2e-code-coverage;poc",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "PoC",
+        "tags": [
+          {
+            "name": "@CODECOVERAGE",
+            "line": 1
+          },
+          {
+            "name": "@test",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "run test",
+            "result": {
+              "status": "passed",
+              "duration": 1706000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
